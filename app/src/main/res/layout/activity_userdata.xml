@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:textAlignment="center"
+        android:text="USERNAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:id="@+id/txtUsername"
+        android:textSize="24sp"
+
+        />
+
+    <TextView
+        android:text="FIRST-LAST NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtName"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:src="@drawable/blank_acct"
+        android:layout_height="160dp"
+        android:id="@+id/imageView2"
+        android:layout_width="160dp"
+        android:layout_below="@+id/txtUsername"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="XXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtmyScore"
+        android:textSize="55sp"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:text="Score:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:id="@+id/textView3"
+        android:textSize="18sp"
+        android:layout_below="@+id/txtName"
+        android:layout_alignStart="@+id/txtmyScore"/>
+
+    <TextView
+        android:text="XX Transients Captured"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtmyScore"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:id="@+id/txtNumCaught"
+        android:textSize="24sp"/>
+
+    <Button
+        android:text="Back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnCancel"/>
+
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/blank_acct"
+        android:layout_width="100px"
+        android:layout_height="120px"
+        android:id="@+id/imgImage"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp" />
+
+    <TextView
+        android:text="USER_NAME"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imgImage"
+        android:id="@+id/txtName"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:text="XXXX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/txtmyScore"
+        android:textSize="24sp"/>
+
+</RelativeLayout>
